@@ -1,0 +1,24 @@
+.HeroSection {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.HeroSection__Textbox {
+  grid-area: 1 / 1 / 4 / 2;
+}
+
+.HeroSection__Action {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.HeroSection__Banner {
+  grid-area: 1 / 2 / 6 / 3;
+  height: 100%;
+  width: 100%;
+}
+
+.HeroSection__Textbox__CompanyName {
+  font-size: 40px;
+}

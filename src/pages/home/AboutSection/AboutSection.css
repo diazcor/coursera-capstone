@@ -1,0 +1,13 @@
+.AboutSection {
+  max-width: 650px;
+  margin: auto;
+}
+
+.AboutSection__Title {
+  color: #495e57;
+  font-size: 40px;
+}
+
+.AboutSection__Description {
+  color: #495e57;
+}

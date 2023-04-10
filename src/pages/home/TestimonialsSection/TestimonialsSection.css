@@ -1,0 +1,11 @@
+.TestimonialsSection__Heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.Reviewer__name,
+.Reviewer__comment,
+.Reviewer__rating {
+  color: black;
+  margin: 0;
+}

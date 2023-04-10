@@ -1,5 +1,117 @@
+header {
+  position: relative;
+  height: 60px;
+  max-width: 650px;
+  padding: 5px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  background-color: #495e57;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer h5 {
+  color: white;
+  margin: 0;
+  font-weight: 800;
+}
+
+footer nav {
+  min-height: 100%;
+  margin: 0;
+}
+
+#header-logo,
+nav ul li {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+nav ul li {
+  color: white;
+  white-space: nowrap;
+  list-style-type: none;
+}
+
+.action-btn {
+  border: 0;
+  border-radius: 16px;
+  cursor: pointer;
+  display: flex;
+  background-color: #f4ce14;
+  width: 200px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-btn:hover {
+  opacity: 50%;
+}
+
+.action-btn-children {
+  text-decoration: none;
+  color: #333333;
+  font-size: 18pt;
+  font-weight: 600;
+}
+
+h1 {
+  color: #f4ce14;
+  font-family: "Markazi", medium;
+  font-size: 40px;
+  font-weight: medium;
+}
+
+h2,
+h3 {
+  color: #fbdabb;
+  font-family: "Markazi", medium;
+  font-weight: normal;
+}
+
+p {
+  color: #edefee;
+}
+
+.menu {
+  position: absolute;
+  top: 60px;
+  margin: auto;
+  right: 0;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.menu li {
+  text-align: center;
+  max-width: 650px;
+  margin: auto;
+  margin: 5px 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .loader {
     animation: spinning infinite 20s linear;
   }
 }

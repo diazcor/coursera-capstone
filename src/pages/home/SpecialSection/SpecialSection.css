@@ -1,0 +1,40 @@
+.SpecialSection__Heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.SpecialSection__Heading__Text {
+  font-size: 40px;
+}
+
+.SpecialSection__Cards__title {
+  color: #fbdabb;
+  margin: 0;
+}
+
+.SpecialSection__Cards__desctiption {
+  color: #edefee;
+  height: 10em;
+}
+
+.SpecialSection__Cards__order {
+  color: #f4ce14;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.price {
+  color: #ee9972;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .SpecialSection__Cards__heading {
+    flex-direction: column;
+    justify-content: left;
+    gap: 15px;
+    height: 60px;
+  }
+}
